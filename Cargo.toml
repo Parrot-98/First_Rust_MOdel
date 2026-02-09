@@ -4,5 +4,4 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-burn = { version = "0.13.2", features = ["wgpu"] }
-bincode = "=2.0.0-rc.3"
+burn = { version = "~0.20", features = ["std", "tui", "train", "vision", "wgpu", "fusion"], default-features = false }
